@@ -29,7 +29,7 @@ export default function RootLayout({
       className={`${main_font.variable} font-main`}
       suppressHydrationWarning
     >
-      <body className="overflow-hidden">
+      <body className="overflow-hidden h-screen w-screen relative">
         <NuqsAdapter>
           <QueryClientProviderContext>
             <ThemeProvider
