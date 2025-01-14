@@ -4,7 +4,7 @@
 
 :root {
   --nav-height: 4rem;
-  --radius: 4px;
+  --radius: 8px;
 }
 
 @layer base {
