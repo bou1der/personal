@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "bun run --bun next dev",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "format": "biome check ./src/ --fix --unsafe",

@@ -7,8 +7,8 @@ import { SocialSection } from "./social";
 export default async function LandingPage() {
 
   return (
-    <div className="h-screen w-screen overflow-hidden">
-      <Meteors number={4} />
+    <div className="h-dvh w-dvw relative overflow-hidden">
+      <Meteors  number={4} />
       <Particles
         className="size-full absolute overflow-hidden"
 
