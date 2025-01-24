@@ -1,6 +1,6 @@
 import { DonateIcon } from "~/components/icons/donate";
 import { Button } from "~/components/ui/button";
-
+import {} from "@tonconnect/ui-react"
 
 
 export function DonateSection(){

@@ -3,7 +3,6 @@ import { Meteors } from "~/components/ui/meteors"
 import Particles from "~/components/ui/particles"
 import NextImage from "next/image"
 import { SocialSection } from "./social";
-import { DonateSection } from "./donate";
 
 export default async function LandingPage() {
 
@@ -17,7 +16,6 @@ export default async function LandingPage() {
       />
       <NextImage src={TurtleGif} alt="" className="absolute size-40 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" />
       <SocialSection />
-      <DonateSection />
     </div>
   );
 }
